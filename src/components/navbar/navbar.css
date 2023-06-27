@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   padding: 2rem 6rem;
 }
 
@@ -26,32 +27,37 @@
   flex-direction: row;
 }
 
-.gpt3__navbar-links_container a {
+.gpt3__navbar-sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.gpt3__navbar-links_container p,
+.gpt3__navbar-sign p,
+.gpt3__navbar-menu_container p {
   color: #fff;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
   text-transform: capitalize;
-  margin: 0 1rem;
-  cursor: pointer;
-}
 
-.gpt3__navbar-sign {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  color: #fff;
+  margin: 0 1rem;
   cursor: pointer;
 }
 
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
-  width: 152px;
-  height: 58px;
-  left: 1153px;
-  top: 55px;
-
+  padding: 0.5rem 1rem;
+  color: #fff;
   background: #ff4820;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
   border-radius: 5px;
 }
