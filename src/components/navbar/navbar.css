@@ -53,9 +53,13 @@
   color: #fff;
   font-family: var(--font-family);
   font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
   left: 1153px;
   top: 55px;
-
+  border: 0;
+  outline: none;
   background: #ff4820;
   border-radius: 5px;
+  cursor: pointer;
 }
