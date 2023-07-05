@@ -11,10 +11,12 @@ const Header = () => {
           Let's Build Something amazing with GPT-3 OpenAI
         </h1>
         <p>
-          Yet bed any for travelling assistance indulgence unpleasing. Not
-          thoughts all exercise blessing. Indulgence way everything joy
-          alteration boisterous the attachment. Party we years to order allow
-          asked of.
+          However, seeking assistance while traveling can sometimes be
+          unpleasant. It's important to consider all thoughts and blessings when
+          indulging in such experiences. Finding joy in altering one's way of
+          doing things and maintaining enthusiastic attachments can make the
+          journey more enjoyable. As the years pass, it's essential to allow
+          oneself to order and prioritize what is truly important.
         </p>
 
         <div className="gpt3__header-content__input">
@@ -24,7 +26,10 @@ const Header = () => {
 
         <div className="gpt3__header-content__people">
           <img src={people} alt="people" />
-          <p>1,600 people requested access a visit in last 24 hours</p>
+          <p>
+            Within the last 24 hours, 1,600 people have requested access to
+            visit.
+          </p>
         </div>
       </div>
       <div className="gpt3__header-image">
