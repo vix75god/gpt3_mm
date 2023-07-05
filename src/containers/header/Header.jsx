@@ -11,12 +11,10 @@ const Header = () => {
           Let's Build Something amazing with GPT-3 OpenAI
         </h1>
         <p>
-          However, seeking assistance while traveling can sometimes be
-          unpleasant. It's important to consider all thoughts and blessings when
-          indulging in such experiences. Finding joy in altering one's way of
-          doing things and maintaining enthusiastic attachments can make the
-          journey more enjoyable. As the years pass, it's essential to allow
-          oneself to order and prioritize what is truly important.
+          Travelers may encounter unpleasant experiences when seeking assistance
+          while on the go. Nonetheless, it is crucial to remain mindful of one's
+          thoughts and blessings, as well as embrace the opportunity to adapt
+          and find joy in new ways of doing things.
         </p>
 
         <div className="gpt3__header-content__input">
@@ -26,10 +24,7 @@ const Header = () => {
 
         <div className="gpt3__header-content__people">
           <img src={people} alt="people" />
-          <p>
-            Within the last 24 hours, 1,600 people have requested access to
-            visit.
-          </p>
+          <p>In the last 24 hours, 1,600 people have requested access.</p>
         </div>
       </div>
       <div className="gpt3__header-image">
